@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Sistema de Educacion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción del proyecto
 
-Currently, two official plugins are available:
+Este proyecto es una prueba técnica que consiste en desarrollar un sistema con tres perfiles de usuario: estudiante, profesor y administrador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Estudiante**: Los usuarios con este perfil tienen cursos asignados y pueden ver sus notas.
+-   **Profesor**: Los usuarios con este perfil pueden ingresar las notas de los estudiantes.
+-   **Administrador**: Los usuarios con este perfil tienen la capacidad de modificar las notas.
 
-## Expanding the ESLint configuration
+En el código proporcionado tenemos 3 copiones con las que podemos ingresar al sistema, estudiante, profesor y administrador, al ingresar como estudiante, te pedira que ingreses tu codigo de estudiante para validar tus datos, el mismo caso tanto para el profesor y administrador.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación
 
-- Configure the top-level `parserOptions` property like this:
+Pasos necesarios para instalar y configurar el proyecto localmente. ejemplo:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clona el repositorio: `git clone https://github.com/usuario/education-system.git`
+2. Navega hasta el directorio del proyecto: `cd education-system`
+3. Instala las dependencias: `npm install`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Uso
+
+Una vez instalado el proyecto, puedes iniciar el servidor local con `npm run dev`. Luego, abre tu navegador y visita `http://localhost:5173` para ver la aplicación en acción.
+
+## Contribución
+
+Este proyecto es una prueba técnica, por lo que no se aceptan contribuciones. Sin embargo, si encuentras algún problema o tienes alguna sugerencia, no dudes en abrir un issue.
