@@ -6,9 +6,13 @@ export type Note = {
     note: number;
 };
 
+const initialState: Note[] = (() =>
+    JSON.parse(localStorage.getItem('notes')!) || [])();
+
 export const notesSlice = createSlice({
     name: 'notes',
-    initialState: [] as Note[],
+    // initialState: [] as Note[],
+    initialState,
     reducers: {
         addNote: (state, action: PayloadAction<Note>) => {
             state.push(action.payload);
