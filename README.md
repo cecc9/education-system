@@ -10,6 +10,18 @@ Este proyecto es una prueba técnica que consiste en desarrollar un sistema con 
 
 En el código proporcionado tenemos 3 copiones con las que podemos ingresar al sistema, estudiante, profesor y administrador, al ingresar como estudiante, te pedira que ingreses tu codigo de estudiante para validar tus datos, el mismo caso tanto para el profesor y administrador.
 
+## Tecnologías utilizadas
+
+Este prueba ha sido desarrollada utilizando las siguientes tecnologías y bibliotecas:
+
+-   **React.js**: Una biblioteca de JavaScript para construir interfaces de usuario.
+-   **TypeScript**: Un superconjunto de JavaScript que añade tipado estático y objetos basados en clases.
+-   **Tailwind CSS**: Un marco de utilidad de CSS para un desarrollo ágil y fácil.
+-   **Redux Toolkit**: La herramienta oficial, opinionada, para la gestión del estado de Redux.
+-   **React Router Dom**: La biblioteca estándar para el enrutamiento en React.
+
+Estas tecnologías proporcionan una base sólida y flexible para el desarrollo de aplicaciones web modernas.
+
 ## Instalación
 
 Pasos necesarios para instalar y configurar el proyecto localmente. ejemplo:
